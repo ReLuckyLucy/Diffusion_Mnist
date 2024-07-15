@@ -28,4 +28,4 @@ pip install -r requirements.txt -i https://pypi.mirrors.ustc.edu.cn/simple/
 ## 结果
 展示其训练过程的loss曲线如下图所示：
 
-![](img\loss_curve.png)
+![](img\losscurve.png)
