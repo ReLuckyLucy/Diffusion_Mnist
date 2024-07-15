@@ -14,7 +14,7 @@ git clone https://github.com/ReLuckyLucy/diffusion_mnist
 cd diffusion_mnist
 
 #创建虚拟环境
-conda create -n diffusion_mnist python==3.9
+conda create -n diffusion_mnist python==3.9 -y
 conda activate diffusion_mnist
 
 # 通过pip下载依赖
