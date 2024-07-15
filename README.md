@@ -1,8 +1,26 @@
-# 基于MNIST数据集，从零构建diffusion扩散模型
+
 <div align="center">
  <img alt="logo" height="200px" src="img\logo.png">
 </div>
+
+# 基于MNIST数据集，从零构建diffusion扩散模型
+
+<p align="center">
+    <img alt="GitHub" src="https://img.shields.io/github/license/ReLuckyLucy/diffusion_mnist">
+    <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/ReLuckyLucy/diffusion_mnist">
+    <img alt="GitHub release (latest by date including pre-releases)" src="https://img.shields.io/github/v/release/ReLuckyLucy/diffusion_mnist?include_prereleases">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/ReLuckyLucy/diffusion_mnist">
+</p>
+<p align="center">
+    <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/ReLuckyLucy/diffusion_mnist">
+    <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/ReLuckyLucy/diffusion_mnist">
+    <img alt="GitHub All Releases" src="https://img.shields.io/github/downloads/ReLuckyLucy/diffusion_mnist">
+    <img alt="GitHub stars" src="https://img.shields.io/github/stars/ReLuckyLucy/diffusion_mnist?style=social">
+</p>
+
 本项目以MNIST数据集为例，从零构建扩散模型，具体会涉及到如下知识点：
+
+
 
 - 退化过程（向数据中添加噪声）
 - 构建一个简单的UNet模型
