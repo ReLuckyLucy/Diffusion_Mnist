@@ -14,7 +14,7 @@
 <p align="center">
     <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/ReLuckyLucy/diffusion_mnist">
     <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/ReLuckyLucy/diffusion_mnist">
-    <img alt="GitHub All Releases" src="https://img.shields.io/github/downloads/ReLuckyLucy/diffusion_mnist">
+    <img alt="GitHub All Releases" src="https://img.shields.io/github/downloads/ReLuckyLucy/diffusion_mnist/total">
     <img alt="GitHub stars" src="https://img.shields.io/github/stars/ReLuckyLucy/diffusion_mnist?style=social">
 </p>
 
