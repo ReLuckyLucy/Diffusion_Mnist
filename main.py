@@ -5,6 +5,10 @@ from torch import nn
 from torch.utils.data import DataLoader
 from matplotlib import pyplot as plt
 
+# 设置matplotlib以正常显示中文和负号
+plt.rcParams['font.sans-serif'] = ['SimHei']
+plt.rcParams['axes.unicode_minus'] = False
+
 # 创建输出目录（如果不存在）
 os.makedirs('output', exist_ok=True)
 
@@ -115,6 +119,24 @@ noised_x = corrupt(x, amount)
 # 获取模型预测
 with torch.no_grad():
     preds = net(noised_x.to(device)).detach().cpu()
+
+# 保存整个模型
+save_dir = 'output/model'
+os.makedirs(save_dir, exist_ok=True)
+
+torch.save(net.state_dict(), 'output/model/basic_unet_model.pth')
+print("模型已保存到 'output/model/basic_unet_model.pth'")
+
+# 或者保存整个模型（包括优化器状态）
+# torch.save({
+#     'model_state_dict': net.state_dict(),
+#     'optimizer_state_dict': opt.state_dict(),
+#     'losses': losses,
+#     'epoch': epoch
+# }, 'output/basic_unet_model_full.pth')
+# print("完整模型已保存到 'output/basic_unet_model_full.pth'")
+
+
 
 # 绘制并保存结果
 fig, axs = plt.subplots(3, 1, figsize=(12, 7))
