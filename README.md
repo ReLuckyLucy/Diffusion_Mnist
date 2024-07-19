@@ -43,7 +43,7 @@ pip install -r requirements.txt -i https://pypi.mirrors.ustc.edu.cn/simple/
 ## 📜数据集
  MNIST数据集是一个小数据集，存储的是0-9手写数字字体，每张图片都28X28的灰度图片，每个像素的取值范围是[0,1]，
 
-## 🪦开始训练
+## 🔛开始训练
 ```
 python main.py
 ```
