@@ -3,7 +3,7 @@
  <img alt="logo" height="200px" src="img\logo.png">
 </div>
 
-# 基于MNIST数据集，从零构建diffusion扩散模型
+<h1 align="center">基于MNIST数据集，从零构建diffusion扩散模型</h1>
 
 <p align="center">
     <img alt="GitHub" src="https://img.shields.io/github/license/ReLuckyLucy/diffusion_mnist">
